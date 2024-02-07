@@ -1,6 +1,5 @@
 /* reset */
 
-/* font-family: 'Liu Jian Mao Cao', cursive; */
 * {
   margin: 0;
   padding: 0;
@@ -25,4 +24,60 @@ h4 {
 a {
   color: #333;
   text-decoration: none;
+}
+
+/* vp + header */
+.vp-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 1rem 2rem;
+  background: #333;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.vp-logo {
+  margin-bottom: 0;
+  font-family: "Long Cang", cursive;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.vp-logo i {
+  color: #f1c40f;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.vp-logo a {
+  font-size: 2.5rem;
+}
+
+header a {
+  color: white;
+}
+
+header ul {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+}
+
+header ul li {
+  padding: 1rem;
+}
+
+header ul li a:hover {
+  color: #f1c40f;
+}
+
+.vp {
+  flex: auto;
 }
