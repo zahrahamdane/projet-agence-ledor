@@ -26,7 +26,12 @@ a {
   text-decoration: none;
 }
 
+strong {
+  color: #f1c40f;
+}
+
 /* vp + header */
+
 .vp-container {
   min-height: 100vh;
   display: flex;
@@ -39,6 +44,7 @@ header {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  line-height: 1.8rem;
 }
 
 .vp-logo {
@@ -46,7 +52,6 @@ header {
   font-family: "Long Cang", cursive;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
   align-items: center;
 }
 
@@ -57,7 +62,8 @@ header {
 }
 
 .vp-logo a {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-weight: 300;
 }
 
 header a {
@@ -80,4 +86,27 @@ header ul li a:hover {
 
 .vp {
   flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/frame.jpg) center center/cover;
+}
+
+.vp-content {
+  max-width: 800px;
+  text-align: center;
+  color: white;
+}
+
+.vp-content h1 {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+.vp-content p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 2rem;
 }
