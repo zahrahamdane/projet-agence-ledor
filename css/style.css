@@ -82,6 +82,7 @@ header {
   font-family: "Long Cang", cursive;
   display: flex;
   flex-flow: row nowrap;
+  justify-content: center;
   align-items: center;
 }
 
@@ -126,6 +127,7 @@ header ul li a:hover {
   max-width: 800px;
   text-align: center;
   color: white;
+  padding: 1rem;
 }
 
 .vp-content h1 {
@@ -180,14 +182,12 @@ header ul li a:hover {
 .who {
   display: flex;
   flex-flow: row nowrap;
+  min-height: 600px;
 }
 
 .who-content-img {
   flex: 1;
-}
-
-.who-content-img img {
-  width: 100%;
+  background: url(../images/team.jpg) center center / cover;
 }
 
 .who-content-text {
